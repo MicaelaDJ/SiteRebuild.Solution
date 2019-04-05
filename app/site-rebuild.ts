@@ -12,6 +12,4 @@ console.log(pins);
 
 
 
-think about project
-
-make lunch
+finish lunch
