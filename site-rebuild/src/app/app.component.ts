@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Pin } from '.models/pin.model';
+import { Pin } from './models/pin.model';
 
 @Component({
   selector: 'app-root',
