@@ -3,7 +3,7 @@
   <h1>Punterest</h1>
   <h3>{{currentFocus}}</h3>
   <ul>
-    <li> *ngFor="let currentPin of pins">{{currentPin.description}}</li>
+    <li *ngFor="let currentPin of pins">{{currentPin.description}} <button (click)="editPin()"<Edit!</button></li>
   </ul>
   <img width="300" alt="Punterest Logo" src="./punterest.png">
 <!-- </div> -->

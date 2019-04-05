@@ -13,4 +13,7 @@ export class AppComponent {
     new Pin("Folding an origami crane"),
     new Pin("Recipe for the most amazing potato salad")
   ];
+  editPin() {
+    alert("Edit a Pin")
+  }
 }
