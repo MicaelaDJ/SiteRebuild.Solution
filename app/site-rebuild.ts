@@ -9,3 +9,7 @@ pins.push(new Pin('Really Cool DIY', 'Medium'));
 pins.push(new Pin('Women\'s Fashion', 'Low'));
 pins.push(new Pin('Out of Context D&D', 'High'));
 console.log(pins);
+
+
+
+think about project
