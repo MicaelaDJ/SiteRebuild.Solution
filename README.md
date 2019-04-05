@@ -7,16 +7,38 @@
 
 ## Specifications
 <details></details>
-<summary>User stories and specifications</summary>
 <table>
   <tr>
-    <th> Scenario I </th>
+    <caption>User stories and specifications</caption>
+    <th colspan="2"> Scenario I </th>
+    <th colspan="2"> Scenario II </th>
   </tr>
   <tr>
     <td>Behavior</td>
     <td></td>
+    <td>Behavior</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Input</td>
+    <td></td>
+    <td>Input</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Output</td>
+    <td></td>
+    <td>Output</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Notes</td>
+    <td></td>
+    <td>Notes</td>
+    <td></td>
   </tr>
 </table>
+
 
 
 ## Setup/Installation Requirements
