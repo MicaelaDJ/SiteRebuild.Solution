@@ -1,11 +1,11 @@
-class Task {
-  done: boolean;
-  description: string;
-  priority: string;
+class Pin {
+  done: boolean = false;
 
-  constructor(descriptionParameter: string, priorityParameter: string){
-    this.done = false;
-    this.description = descriptionParameter;
-    this.priority = priorityParameter;
-  }
+  constructor(public description: string, public priority: string){}
 }
+
+var pins: Pin[] = [];
+pins.push(new Pin('Really Cool DIY', 'Medium'));
+pins.push(new Pin('Women\'s Fashion', 'Low'));
+pins.push(new Pin('Out of Context D&D', 'High'));
+console.log(pins);
