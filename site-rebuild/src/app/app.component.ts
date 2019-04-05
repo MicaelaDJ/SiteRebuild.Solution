@@ -7,6 +7,10 @@ import { Pin } from './models/pin.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  currentFocus: string = 'Super Cool DIY';
-  firstPin: Pin = new Pin("How to make a miniature fimo succulent");
+  currentFocus: string = 'Super Cool DIYs';
+  pins: Pin[] = [
+    new Pin("How to make a miniature fimo succulent"),
+    new Pin("Folding an origami crane"),
+    new Pin("Recipe for the most amazing potato salad")
+  ];
 }
